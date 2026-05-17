@@ -10,6 +10,8 @@ $produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
 
 <h2>Lista de Remédios</h2>
 
+<?php if(count($produtos) > 0){ ?>
+
 <div class="cards">
 
 <?php foreach($produtos as $produto) { ?>
@@ -38,6 +40,9 @@ $produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 </div>
+<?php }} else { ?>
+
+<h4 class="vazio">Nenhum remédio cadastrado</h4>
 
 <?php } ?>
 
