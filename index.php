@@ -27,6 +27,15 @@ $produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
     <p><strong>Estoque:</strong>
     <?= $produto['estoque'] ?></p>
 
+        <div class="acoes">
+        <a href="update.php?id=<?= $produto['id'] ?>">
+            Editar
+        </a>
+
+        <a href="delete.php?id=<?= $produto['id'] ?>">
+            Excluir
+        </a>
+    </div>
 
 </div>
 
