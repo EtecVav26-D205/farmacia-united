@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<h2>Adicionar Produto</h2>
+<h2>Adicionar Remédio</h2>
 
 <form method="POST">
 
