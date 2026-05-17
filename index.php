@@ -34,7 +34,7 @@ $produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
             Editar
         </a>
 
-        <a href="delete.php?id=<?= $produto['id'] ?>">
+        <a href="delete.php?id=<?= $produto['id'] ?>" onclick="return confirm('Tem certeza que deseja excluir este remédio?')">
             Excluir
         </a>
     </div>
