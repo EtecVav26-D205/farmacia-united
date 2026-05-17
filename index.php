@@ -1,1 +1,37 @@
+<?php
+require_once "config/conexao.php";
+require_once "includes/header.php";
 
+$sql = $conexao->prepare("SELECT * FROM produtos");
+$sql->execute();
+
+$produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
+?>
+
+<h2>Lista de Remédios</h2>
+
+<div class="cards">
+
+<?php foreach($produtos as $produto) { ?>
+
+<div class="card">
+
+    <h3><?= $produto['nome'] ?></h3>
+
+    <p><strong>Fabricante:</strong>
+    <?= $produto['fabricante'] ?></p>
+
+    <p><strong>Preço:</strong>
+    R$ <?= $produto['preco'] ?></p>
+
+    <p><strong>Estoque:</strong>
+    <?= $produto['estoque'] ?></p>
+
+
+</div>
+
+<?php } ?>
+
+</div>
+
+<?php require_once "includes/footer.php"; ?>
