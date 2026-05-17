@@ -13,7 +13,7 @@
 <body>
 
 <header>
-    <h1> Farmácia United</h1>
+   <img src="img/logofu-removebg-preview.png" class="logo">
 
     <nav class="hotbar">
         <a href="index.php">Produtos</a>
