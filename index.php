@@ -30,11 +30,11 @@ $produtos = $sql-> fetchAll(PDO::FETCH_ASSOC);
     <?= $produto['estoque'] ?></p>
 
         <div class="acoes">
-        <a href="update.php?id=<?= $produto['id'] ?>">
+        <a href="update.php?id=<?= $produto['id'] ?>" class="editar">
             Editar
         </a>
 
-        <a href="delete.php?id=<?= $produto['id'] ?>" onclick="return confirm('Tem certeza que deseja excluir este remédio?')">
+        <a href="delete.php?id=<?= $produto['id'] ?>" onclick="return confirm('Tem certeza que deseja excluir este remédio?')" class="excluir">
             Excluir
         </a>
     </div>
