@@ -59,3 +59,10 @@ farmacia-united/
 ├── excluir.php
 ├── database.sql
 └── README.md
+
+## 👥 Integrantes do Grupo
+
+- Gabriel Salerno Ambrosio
+- Guilherme Moreira Zanato
+- João Felipe Felix Souza
+- Hércules de Souza Rodrigues
