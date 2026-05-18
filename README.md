@@ -38,6 +38,15 @@ O projeto foi desenvolvido como atividade prática acadêmica utilizando:
 
 ---
 
+## 👥 Integrantes do Grupo
+
+- Gabriel Salerno Ambrosio
+- Guilherme Moreira Zanato
+- João Felipe Felix Souza
+- Hércules de Souza Rodrigues
+
+---
+
 # 📂 Estrutura do Projeto
 
 ```bash
@@ -60,9 +69,4 @@ farmacia-united/
 ├── database.sql
 └── README.md
 
-## 👥 Integrantes do Grupo
 
-- Gabriel Salerno Ambrosio
-- Guilherme Moreira Zanato
-- João Felipe Felix Souza
-- Hércules de Souza Rodrigues
