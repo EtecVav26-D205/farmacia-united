@@ -63,9 +63,10 @@ farmacia-united/
 │   └── style.css
 │
 ├── index.php
-├── cadastro.php
-├── editar.php
-├── excluir.php
+├── create.php
+├── update.php
+├── delete.php
+├── save.php
 ├── database.sql
 └── README.md
 
